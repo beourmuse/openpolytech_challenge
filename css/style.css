@@ -1,0 +1,32 @@
+body {
+  background: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.score-panel {
+    text-align: left;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+}
+
+.modal-content {
+    background: #002A40;
+    color: #AEEAF4;
+}
